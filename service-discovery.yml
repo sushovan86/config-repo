@@ -9,6 +9,9 @@ eureka:
     register-with-eureka: false
     fetch-registry: true
 
+my:
+  greeting: Hello World
+
 management:
   endpoints:
     web:

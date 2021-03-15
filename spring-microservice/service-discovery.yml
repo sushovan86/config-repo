@@ -7,10 +7,7 @@ eureka:
   client:
     serviceUrl.defaultZone: http://localhost:8080/eureka
     register-with-eureka: false
-    fetch-registry: true
-
-my:
-  greeting: Hello World
+    fetch-registry: false
 
 management:
   endpoints:

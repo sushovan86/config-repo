@@ -16,6 +16,9 @@ spring:
           enabled: true
           lower-case-service-id: true
 
+gateway:
+  retry-count: 5
+
 eureka:
   client:
     serviceUrl.defaultZone: http://localhost:8080/eureka

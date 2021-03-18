@@ -14,7 +14,7 @@ spring:
         enabled: true
 eureka:
   instance:
-    instance-id: ${spring.application.name}-${local.server.port}
+    instance-id: ${spring.application.name}-${random.value}
   client:
     serviceUrl.defaultZone: http://localhost:8080/eureka
     registry-fetch-interval-seconds: 5

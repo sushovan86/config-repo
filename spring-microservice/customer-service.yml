@@ -1,0 +1,19 @@
+server:
+  port: 0
+  error:
+    include-stacktrace: NEVER
+spring:
+  r2dbc:
+    url: r2dbc:pool:postgres://kmvckmre:p-Xur4NdDzV7L-V6rk_rEQVw_68WIJaV@satao.db.elephantsql.com:5432/kmvckmre
+    name: kmvckmre
+    username: kmvckmre
+    password: p-Xur4NdDzV7L-V6rk_rEQVw_68WIJaV
+  data:
+    r2dbc:
+      repositories:
+        enabled: true
+eureka:
+  client:
+    serviceUrl.defaultZone: http://localhost:8080/eureka
+    registry-fetch-interval-seconds: 5
+    region: default

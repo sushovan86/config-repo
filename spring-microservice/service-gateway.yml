@@ -1,0 +1,23 @@
+server:
+  port: 9292
+
+management:
+  endpoints:
+    web:
+      exposure.include: *
+
+spring:
+  cloud:
+    gateway:
+      metrics:
+        enabled: true
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+
+eureka:
+  client:
+    serviceUrl.defaultZone: http://localhost:8080/eureka
+    registry-fetch-interval-seconds: 5
+    region: default

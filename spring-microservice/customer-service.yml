@@ -2,12 +2,16 @@ server:
   port: 0
   error:
     include-stacktrace: NEVER
+
+database:
+  password: '{cipher}AQAoh7urm+XExYigTYvqe86yRmwytaYJcmrJ8kQUhuW3puP+wJ86Vo2HZVyrOfUshNRbq0ruqsWIY7WDqqVG/WyQicvTbuNLZvoXgS9+yk9todHG1lv5FfowNQ1ryJGqEFwCaqEqlAVnJCukPBDrYw9Lz3XYXrsPtO+oiKHp/i/wTJDqG0L3QST5PMsfOm4xmj1Gq6exdpuuB3FmmN0Z/sUpLTLETGlsBq37xeINKk6AzlPEjchFM8JpBSG/2MNnabvA2FruFqURuQA28x4pkcc4K5t28/nqOKLSBrEuS7dYD7yWTOjB0sbeBa/HMVgYDTCDhbEZBWkLzagyAmv4oc2RalQ+XlHzo8Y5hFBbqrMt3snvYcLRcgReryBr4jcoi8n7kBshDK4xZysNxK8icGNNFx5KnjWp1S8nKK9xX3LQlg=='
+
 spring:
   r2dbc:
-    url: r2dbc:pool:postgres://kmvckmre:p-Xur4NdDzV7L-V6rk_rEQVw_68WIJaV@satao.db.elephantsql.com:5432/kmvckmre
+    url: r2dbc:pool:postgres://kmvckmre:${database.password}@satao.db.elephantsql.com:5432/kmvckmre
     name: kmvckmre
     username: kmvckmre
-    password: p-Xur4NdDzV7L-V6rk_rEQVw_68WIJaV
+    password: ${database.password}
   data:
     r2dbc:
       repositories:
@@ -17,5 +21,5 @@ eureka:
     instance-id: ${spring.application.name}-${random.value}
     prefer-ip-address: true
   client:
-    serviceUrl.defaultZone: http://localhost:8080/eureka    
+    serviceUrl.defaultZone: http://localhost:8080/eureka
     region: default

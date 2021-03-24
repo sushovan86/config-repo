@@ -1,0 +1,16 @@
+spring:
+  jackson:
+    default-property-inclusion: NON_NULL
+
+server:
+  error:
+    include-stacktrace: NEVER
+
+logging:
+  level:
+    com.chak.sc: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure.include: '*'

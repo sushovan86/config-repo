@@ -1,7 +1,5 @@
 server:
   port: 0
-  error:
-    include-stacktrace: NEVER
 
 database:
   password: '{cipher}AQAFIfJ5D+388OmC4X81slkbctq4LLRNlOt0Wasd2M/M3K2h61MDZvYzkSU0qMosistqxJvkxkn4tVfFnRkQqoy8XgALhjL5z+EFWWTfZa1RD//oSDFWHWhQUReZYtMup1DOKFvGVB5qaqAWHuCG59Msl8Z/mlTaiDhdS835NlOi+v8TQ38Gba7PtN6uDiDNxctuquhc548gvx7SKdd/f4hv+5YUC9Hj9at2noSRqZzChziwrcvX9psOhQu/raiUU7A2cDMLQEtFuO2dBKxgrANN8zFltmDIbJnNtNpJmkX6UQ3ajB6CX8CVLz4Sl425hrtPOG3v0p07/ncDyja7M2HzpyNURxaUuSpLzA0gfDl4w6hYnsLQuD+uXh5HwJTKf9RxCQGhSBEcUDBhpo9BsjAp34rGo/dI1HzS22yqxywsnw=='
@@ -23,8 +21,3 @@ eureka:
   client:
     serviceUrl.defaultZone: http://localhost:8080/eureka
     region: default
-
-management:
-  endpoints:
-    web:
-      exposure.include: '*'

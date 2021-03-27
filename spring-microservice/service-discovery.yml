@@ -1,9 +1,9 @@
 server:
-  port: 8080
+  port: ${discovery.port}
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: ${discovery.host}
   server:
     enable-self-preservation: false
     renewal-percent-threshold: 0.11

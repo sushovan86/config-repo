@@ -14,3 +14,14 @@ management:
   endpoints:
     web:
       exposure.include: '*'
+
+database:
+  password: '{cipher}AQCH3FdcgILrYmPTLicTCKM/St1kgz4F9xkpsRExQchqOsCxykK532BecVzTCONlhIgFd6fv2piIMLbRBZEZxnsSW1byydjNHKnuIN+AnY5cgbixqSnkst46PAjtYLFEPg9XdNpe0rTanlcAKPsaJHo0qK4whk4HmrxtffF9GlORIwMUdcDYrdOsmgnbqb5Pk5nSe6WybL000DeazKtkXfNhfNTLA7LumoFAmMnlikZ1O7EvmSA7/wPzpJh7r+C5BvVZswK6hA2omIolyik5OZ9r+IKL0JAyz3QOhp66twYA9YYk/NuP5FwrTT3O0NPtafXfzKjFtV4HvK9jjfbXFQL+dEn6Evo9UupELM0k60GqJuc2TGt8B/81KDV6WpbvMAI/Qr2QzG2H9z09J9YvNdB055XOpe6DvQcVSUwUZdTiMQ=='
+  username: kmvckmre
+  host: satao.db.elephantsql.com
+  port: 5432
+  name: kmvckmre
+
+discovery:
+  host: localhost
+  port: 8080

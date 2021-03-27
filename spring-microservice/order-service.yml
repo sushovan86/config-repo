@@ -1,0 +1,21 @@
+server:
+  port: 0
+
+spring:
+  r2dbc:
+    url: r2dbc:pool:postgres://${database.username}:${database.password}@${database.host}:${database.port}/${database.name}
+    name: ${database.name}
+    username: ${database.username}
+    password: ${database.password}
+  data:
+    r2dbc:
+      repositories:
+        enabled: true
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}-${random.value}
+    prefer-ip-address: true
+  client:
+    serviceUrl.defaultZone: http://${discovery.host}:${discovery.port}/eureka
+    region: default

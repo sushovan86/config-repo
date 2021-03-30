@@ -3,7 +3,7 @@ server:
 
 spring:
   r2dbc:
-    url: r2dbc:pool:postgres://${database.username}:${database.password}@${database.host}:${database.port}/${database.name}
+    url: r2dbc:postgres://${database.username}:${database.password}@${database.host}:${database.port}/${database.name}
     name: ${database.name}
     username: ${database.username}
     password: ${database.password}

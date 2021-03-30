@@ -1,5 +1,5 @@
 server:
-  port: 9292
+  port: ${gateway.port:9292}
 
 spring:
   cloud:

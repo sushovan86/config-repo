@@ -25,3 +25,7 @@ database:
 discovery:
   host: localhost
   port: 8080
+
+gateway:
+  host: localhost
+  port: 9292

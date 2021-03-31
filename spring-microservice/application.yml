@@ -16,11 +16,11 @@ management:
       exposure.include: '*'
 
 database:
-  password: '{cipher}AQCH3FdcgILrYmPTLicTCKM/St1kgz4F9xkpsRExQchqOsCxykK532BecVzTCONlhIgFd6fv2piIMLbRBZEZxnsSW1byydjNHKnuIN+AnY5cgbixqSnkst46PAjtYLFEPg9XdNpe0rTanlcAKPsaJHo0qK4whk4HmrxtffF9GlORIwMUdcDYrdOsmgnbqb5Pk5nSe6WybL000DeazKtkXfNhfNTLA7LumoFAmMnlikZ1O7EvmSA7/wPzpJh7r+C5BvVZswK6hA2omIolyik5OZ9r+IKL0JAyz3QOhp66twYA9YYk/NuP5FwrTT3O0NPtafXfzKjFtV4HvK9jjfbXFQL+dEn6Evo9UupELM0k60GqJuc2TGt8B/81KDV6WpbvMAI/Qr2QzG2H9z09J9YvNdB055XOpe6DvQcVSUwUZdTiMQ=='
-  username: kmvckmre
-  host: satao.db.elephantsql.com
+  password: '{cipher}AQBDIOPsQVTEcWY9mzCJbsig2qkFMIYqo17nrqAfO/B6TGGU/LcO294+UuYpGqWL3pOjrTHvGGLmK6V6NCDJ8Mfh40C0AIjCtQrCto9Hb3K7j3yMOIRsKVPWu1syhnwpxRjI2EbbHY9vTJh+niJ3omqSjJdp9djdZvxZPM1jQNTvxiUxOtliOoRKqoXHHbtEbpzC/nv37+OfH/XiR1zXazzUmtPelQ3XsOW1q3LQOJDlcDZJBgHEOkdF/XEg9MyfHaRM1QaG6EG35fB4unmJhPeEaYP1/b3mmviOC1Ky/4T+U4aTnaoMfw9g6W8lOfLmF7H8pycIEPuoowT0jG54MmzHRgYUUcxrVm4+nk5UsF998tPX8fvaevCyipONZpcLGGKLb46Ttr6lcRuLbqgkL7uN'
+  username: postgres
+  host: 192.168.0.151
   port: 5432
-  name: kmvckmre
+  name: postgres
 
 discovery:
   host: localhost

@@ -22,7 +22,7 @@ management:
       exposure.include: '*'
 
 database:
-  password: '{cipher}AQBDIOPsQVTEcWY9mzCJbsig2qkFMIYqo17nrqAfO/B6TGGU/LcO294+UuYpGqWL3pOjrTHvGGLmK6V6NCDJ8Mfh40C0AIjCtQrCto9Hb3K7j3yMOIRsKVPWu1syhnwpxRjI2EbbHY9vTJh+niJ3omqSjJdp9djdZvxZPM1jQNTvxiUxOtliOoRKqoXHHbtEbpzC/nv37+OfH/XiR1zXazzUmtPelQ3XsOW1q3LQOJDlcDZJBgHEOkdF/XEg9MyfHaRM1QaG6EG35fB4unmJhPeEaYP1/b3mmviOC1Ky/4T+U4aTnaoMfw9g6W8lOfLmF7H8pycIEPuoowT0jG54MmzHRgYUUcxrVm4+nk5UsF998tPX8fvaevCyipONZpcLGGKLb46Ttr6lcRuLbqgkL7uN'
+  password: '{cipher}AQBTn8Re4npnO0mcoOAkv2/yjiIGucE18WsOPdB2vbiPtzNdISmvFbydDFk9DIyxi0tW+bVRts6Qefr8/eT3AFWfKfnCTpwWvjV7XJCV1tEeQ+gRdKPj+4HULc8Pczp6Ig8eqhq8BB9k1WvOAcQ199NkZ1tsG0kuwJIm+i6T2ugfzC0uepzn/1fEBbSGITvt8rY8Y6W5Uku2f1SPhW5G1MTS7Z8kG7dz2UQSyJoJveFzmXbWroJ2dj16LsUsXW+0hZOgjlnL+f/EdyiqgNQl8Eu9L//4xsjiPP3+Enq8mgDstDnasnHPHpCJInNsWYx7goHDXpk5iYquHExVIKZB9WnsXnp/s9fL6rRE+U4WtfhLN4aS8dReSd9OjyQ2OSpure0='
   username: postgres
   host: 192.168.0.151
   port: 5432
